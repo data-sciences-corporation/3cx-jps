@@ -1,5 +1,5 @@
-# 3CX - as a Service
+# 3CX as a Service
 
-A single 3cx instance
+A single instance of the 3CX PBX services.
 
 This is currently a ``BETA`` build.
