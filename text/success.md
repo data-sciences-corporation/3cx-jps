@@ -1,3 +1,3 @@
-Configure instance: [${env.url}:5015/?v=2](${env.url}:5015/?v=2)
+Configure instance: [${env.url}](${env.url})
 
-[${nodes.3cx[0].address}:5015/?v=2](${nodes.3cx[0].address}:5015/?v=2)
+[${nodes.3cx[0].address}](${nodes.3cx[0].address})
