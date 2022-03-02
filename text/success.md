@@ -1,9 +1,6 @@
-Configure instance: [${env.url}](${env.url})
-
-[${nodes.3cx[0].address}](${nodes.3cx[0].address})
-
-
-[${nodes.3cx[0].url}](${nodes.3cx[0].url})
+## Configure instance at: [${nodes.3cx[0].url}]('${nodes.3cx[0].url}:5015/?v=2')
+## Configure instance at: [${nodes.3cx[0].url}](${nodes.3cx[0].url}':5015/?v=2')
+## Configure instance at: [${nodes.3cx[0].url}](${nodes.3cx[0].url}:5015/?v=2)
 
 
 > http://[hostname]:5015/?v=2
