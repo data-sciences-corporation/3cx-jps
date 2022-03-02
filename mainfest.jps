@@ -44,7 +44,7 @@
         {
             "cmd [*]":
             [
-                "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/scripts/deploy3cx.sh | /bin/bash -s '${nodes.3cx[0].url}' '${nodes.3cx[0].address}' "
+                "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/main/scripts/deploy3cx.sh | /bin/bash -s '${nodes.3cx[0].url}' '${nodes.3cx[0].address}' "
             ]
         }
     },
