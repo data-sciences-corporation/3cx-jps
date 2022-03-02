@@ -5,6 +5,7 @@ echo "Creating directories" >> INSTALL_LOG
 mkdir -p /root/3cx/mount
 mkdir -p /root/3cx/config
 mkdir -p /root/3cx/data
+chown -R docker. /root/3cx
 echo "Deploying container on IP [$public_ip] and URL [$fqdn]" >> INSTALL_LOG
 docker run \
   -d  \
