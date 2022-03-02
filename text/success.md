@@ -4,7 +4,7 @@ A 3cx container should now be running and can be configured at the below URL
 
 ## Information:
 URL: ${nodes.3cx[0].url} \
-Public IP address: ${nodes.3cx[0].address}
+Public IP address: ${nodes.3cx[0].extIPs[0]}
 
 ## Licensing:
 You will need to provide your own licence key, as purchased/supplied by 3cx.
