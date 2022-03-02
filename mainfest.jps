@@ -9,7 +9,7 @@
         "short": "A test deployment of 3CX"
     },
     "logo": "https://www.pinclipart.com/picdir/big/366-3669563_3cx-phone-system-logo-3cx-logo-png-clipart.png",
-    "name": "ThreeCX",
+    "name": "3CX PBX",
     "targetRegions":
     {
         "type": "vz7"
@@ -44,7 +44,7 @@
         {
             "cmd [3cx]":
             [
-                "echo Starting > INSTALL_LOG",
+                "echo Deploying 3CX instance > INSTALL_LOG",
                 "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/main/scripts/deploy3cx.sh | sh -s '${nodes.3cx[0].url}' '${nodes.3cx[0].address}' "
             ]
         }
