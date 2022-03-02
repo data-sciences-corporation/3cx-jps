@@ -1,6 +1,6 @@
 {
     "type": "install",
-    "version": "0.1",
+    "version": "0.6.1",
     "id": "threeCx",
     "baseUrl": "https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/master",
     "description":
