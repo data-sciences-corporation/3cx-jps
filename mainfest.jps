@@ -24,7 +24,7 @@
         "extip": true,
         "count": "1",
         "env": {
-            "JELASTIC_PORTS": "443,5001,5015,5060,5061,5090,2528"
+            "JELASTIC_PORTS": "443, 5001, 5015, 5060, 5061, 5090, 2528"
         }
     }],
     "onInstall": [
