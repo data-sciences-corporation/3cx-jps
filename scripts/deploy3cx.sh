@@ -15,6 +15,6 @@ docker run \
   -p      5090:5090 \
   -p      5090:5090/udp \
   -v    /root/files/3cxpbx:/mnt/3cx \
-  --env CX_PUBLIC_IP=102.23.205.26 \
+  --env CX_PUBLIC_IP=$public_ip \
   --env CX_INTERNAL_FQDN=docker.noxnoctua.com \
           ghcr.io/izer-xyz/3cx:latest
