@@ -23,6 +23,7 @@ docker run \
   -p      5090:5090/udp \
   -v    /root/3cx/mount:/mnt/3cx \
   -v    /root/3cx/config:/etc/3cxpbx \
+  -v    /root/3cx/data:/var/lib/3cxpbx/Instance1/Data \
   --env CX_PUBLIC_IP=$public_ip \
   --env CX_INTERNAL_FQDN=$fqdn \
   --name 3cx \
