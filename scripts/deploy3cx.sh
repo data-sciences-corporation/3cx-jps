@@ -1,6 +1,6 @@
 #!/bin/bash
-public_ip=$1
-fqdn=$2
+fqdn=$1
+public_ip=$2
 echo "Creating directories" >> INSTALL_LOG
 mkdir -p /root/3cx/mount
 mkdir -p /root/3cx/config
