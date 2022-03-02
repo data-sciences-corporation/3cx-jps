@@ -5,7 +5,7 @@
 No special instructions should be needed. 
 ### Users [Single Use]
 * Copy the contents of the .jps file into the text box that is shown when selecting ``import`` -> ``JPS`` \
-OR \
+OR
 * Copy the URL of the .jps file into the text box when selecting ``import`` -> ``URL``
 ### Hosters
 * [JCA] Add a "New Installation" in the marketplace and copy the contents of the .jps file into the text box. \
