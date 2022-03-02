@@ -8,7 +8,7 @@
         "short": "A test deployment of 3CX"
     },
     "logo": "https://www.pinclipart.com/picdir/big/366-3669563_3cx-phone-system-logo-3cx-logo-png-clipart.png",
-    "name": "3cx",
+    "name": "ThreeCX",
     "targetRegions": {
         "type": "vz7"
     },
@@ -19,7 +19,6 @@
     "nodes": [{
         "cloudlets": 16,
         "nodeGroup": "3cx",
-        "displayName" : "Master Nodes",
         "image": "izerxyz/3cx",
         "extip": true,
         "count": "1",
