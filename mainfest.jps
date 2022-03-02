@@ -1,8 +1,8 @@
 {
     "type": "install",
     "version": "0.1",
-    "id": " ",
-    "baseUrl": "https://raw.githubusercontent.com/umlatt/postgresql-jps/master",
+    "id": "threeCx",
+    "baseUrl": "https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/master",
     "description": {
         "text": "text/description.md",
         "short": "A test deployment of 3CX"
