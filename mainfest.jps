@@ -18,7 +18,7 @@
     "settings": {},
     "nodes": [{
         "cloudlets": 16,
-        "nodeGroup": "pgmaster",
+        "nodeGroup": "3cx",
         "displayName" : "Master Nodes",
         "image": "izerxyz/3cx",
         "extip": true,
@@ -28,7 +28,7 @@
         }
     }],
     "onInstall": [
-        "step1-agents"
+        "step1"
     ],
     "actions": {
         "step1": {
