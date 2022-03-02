@@ -26,6 +26,7 @@
             "cloudlets": 16,
             "nodeType": "dockerengine",
             "nodeGroup": "3cx",
+            "displayName": "3CX PBX Node",
             "extip": true,
             "count": "1",
             "env":
