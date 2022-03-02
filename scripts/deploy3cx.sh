@@ -1,5 +1,6 @@
 #!/bin/bash
 public_ip=$1
+fqdn=$2
 docker run \
   -d  \
   -t \
@@ -16,5 +17,5 @@ docker run \
   -p      5090:5090/udp \
   -v    /root/files/3cxpbx:/mnt/3cx \
   --env CX_PUBLIC_IP=$public_ip \
-  --env CX_INTERNAL_FQDN=docker.noxnoctua.com \
+  --env CX_INTERNAL_FQDN=$fqdn \
           ghcr.io/izer-xyz/3cx:latest
