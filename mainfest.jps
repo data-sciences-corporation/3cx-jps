@@ -19,7 +19,7 @@
     "nodes": [{
         "cloudlets": 16,
         "nodeGroup": "3cx",
-        "image": "izerxyz/3cx",
+        "image": "jelastic/dockerce",
         "extip": true,
         "count": "1",
         "env": {
