@@ -1,0 +1,42 @@
+{
+    "type": "install",
+    "version": "0.1",
+    "id": " ",
+    "baseUrl": "https://raw.githubusercontent.com/umlatt/postgresql-jps/master",
+    "description": {
+        "text": "text/description.md",
+        "short": "A test deployment of 3CX"
+    },
+    "logo": "https://www.pinclipart.com/picdir/big/366-3669563_3cx-phone-system-logo-3cx-logo-png-clipart.png",
+    "name": "3cx",
+    "targetRegions": {
+        "type": "vz7"
+    },
+    "globals": {
+        "password": "${fn.password(20)}"
+    },
+    "settings": {},
+    "nodes": [{
+        "cloudlets": 16,
+        "nodeGroup": "pgmaster",
+        "displayName" : "Master Nodes",
+        "image": "izerxyz/3cx",
+        "extip": true,
+        "count": "1",
+        "env": {
+            "JELASTIC_PORTS": "443,5001,5015,5060,5061,5090,2528"
+        }
+    }],
+    "onInstall": [
+        "step1-agents"
+    ],
+    "actions": {
+        "step1": {
+            "cmd [*]": [
+                "echo '\nStep 01' > INSTALL_LOG"
+            ]
+        }
+    },
+    "skipNodeEmails": "true",
+    "success": "text/success.md"
+}
