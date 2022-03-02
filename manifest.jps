@@ -46,7 +46,7 @@
             "cmd [3cx]":
             [
                 "echo Deploying 3CX instance > INSTALL_LOG",
-                "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/main/scripts/deploy3cx.sh | sh -s '${nodes.3cx[0].adminUrl}' '${nodes.3cx[0].extIPs[0]}' "
+                "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/main/scripts/deploy3cx.sh | sh -s '${nodes.3cx[0].adminUrl}' '${nodes.3cx[0].extIPs[1]}' "
             ]
         }
     },
