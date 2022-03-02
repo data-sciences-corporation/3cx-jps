@@ -1,7 +1,10 @@
 #!/bin/bash
 public_ip=$1
 fqdn=$2
-mkdir 3cx
+echo "Creating directories" >> INSTALL_LOG
+mkdir -p /root/3cx/data
+mkdir -p /root/3cx/config
+echo "Deploying container on IP [$public_ip] and URL [$fqdn]" >> INSTALL_LOG
 docker run \
   -d  \
   -t \
@@ -16,7 +19,11 @@ docker run \
   -p      5060:5060/udp \
   -p      5090:5090 \
   -p      5090:5090/udp \
-  -v    /root/3cx:/mnt/3cx \
+  -v    /root/3cx/data:/mnt/3cx \
+  -v    /root/3cx/config:/etc/3cxpbx
   --env CX_PUBLIC_IP=$public_ip \
   --env CX_INTERNAL_FQDN=$fqdn \
+  --name 3cx \
+  --restart unless-stopped \
           ghcr.io/izer-xyz/3cx:latest
+ echo "Deployment complete" >> INSTALL_LOG
