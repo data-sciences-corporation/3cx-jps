@@ -6,7 +6,7 @@
     "description":
     {
         "text": "text/description.md",
-        "short": "A test deployment of 3CX"
+        "short": "A docker based deployment of 3CX PBX as a Service."
     },
     "logo": "https://www.pinclipart.com/picdir/big/366-3669563_3cx-phone-system-logo-3cx-logo-png-clipart.png",
     "name": "3CX PBX",
