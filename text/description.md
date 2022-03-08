@@ -2,6 +2,6 @@
 
 A single instance of the 3CX PBX service.
 
-This is currently a ``ALPHA`` build.
+This is currently a ``BETA`` build.
 
-> This deployment is currently only to be used for internal testing (functionality testing still needs to occur).
+> PLease test this deployment at your own risk. If bugs are found, please submit them to https://github.com/data-sciences-corporation/3cx-jps/issues
