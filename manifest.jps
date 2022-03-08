@@ -1,6 +1,6 @@
 {
     "type": "install",
-    "version": "0.22.03.02-alpha",
+    "version": "0.22.03.08-beta",
     "id": "threeCx",
     "baseUrl": "https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/master",
     "description":
@@ -23,7 +23,7 @@
     "nodes":
     [
         {
-            "cloudlets": 16,
+            "cloudlets": 32,
             "nodeType": "dockerengine",
             "nodeGroup": "3cx",
             "displayName": "3CX PBX Node",
