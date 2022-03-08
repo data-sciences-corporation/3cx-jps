@@ -1,5 +1,5 @@
 # Jelastic - 3CX deployment
-* This is a docker container instance, leveraging the jelastic curated docker ce deployment.
+* This is a docker container instance, leveraging a Jelastic curated docker instance.
 * There is no officially supplied docker container image for 3cx, but the used container image was shared with me by the 3cx sales team as an option (as Virtuozzo containerization is not supported natively by 3cx).
 ## Usage:
 No special instructions should be needed. 
