@@ -1,4 +1,5 @@
 # Jelastic - 3CX deployment
+![3CX PBX](https://www.3cx.com/wp-content/uploads/2018/08/logo-3.png)
 * This is a docker container instance, leveraging a Jelastic curated docker instance.
 * There is no officially supplied docker container image for 3cx, but the used container image was shared with me by the 3cx sales team as an option (as Virtuozzo containerization is not supported natively by 3cx).
 ## Usage:
