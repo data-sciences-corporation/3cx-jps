@@ -16,7 +16,8 @@
     },
     "globals":
     {
-        "password": "${fn.password(20)}"
+        "password": "${fn.password(20)}",
+        "logfile":"/var/log/jps-3cx-install.log"
     },
     "settings":
     {},
@@ -45,8 +46,9 @@
         {
             "cmd [3cx]":
             [
-                "echo Deploying 3CX instance > INSTALL_LOG",
-                "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/main/scripts/deploy3cx.sh | sh -s '${nodes.3cx[0].url}' '${nodes.3cx[0].extIPs[0]}' "
+                "echo '[START] Action-Deploy' > '${globals.logfile}'",
+                "curl -fsS https://raw.githubusercontent.com/data-sciences-corporation/3cx-jps/main/scripts/deploy3cx.sh | sh -s '${nodes.3cx[0].url}' '${nodes.3cx[0].extIPs[0]}' ",
+                "echo '[ END ] Action-Deploy' >> '${globals.logfile}'"
             ]
         }
     },

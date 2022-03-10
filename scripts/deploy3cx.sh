@@ -1,12 +1,13 @@
 #!/bin/bash
 fqdn=$1
 public_ip=$2
-echo "Creating directories" >> INSTALL_LOG
+script="deploy.sh"
+logfile="/var/log/jps-3cx-install.log"
+echo "[$script] Creating directories" >> $logfile
 mkdir -p /root/3cx/mount
 mkdir -p /root/3cx/config
-mkdir -p /root/3cx/data
 chown -R docker. /root/3cx
-echo "Deploying container on IP [$public_ip] and URL [$fqdn]" >> INSTALL_LOG
+echo "[$script] Deploying container on IP [$public_ip] and URL [$fqdn]"  >> $logfile
 docker run \
   -d  \
   -t \
@@ -28,4 +29,4 @@ docker run \
   --name 3cx \
   --restart unless-stopped \
           ghcr.io/izer-xyz/3cx:latest
- echo "Deployment complete" >> INSTALL_LOG
+ echo "[$script] Docker deployment complete" >> $logfile
