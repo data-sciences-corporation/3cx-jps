@@ -1,8 +1,8 @@
 ### Access
 
-#### [${nodes.3cx[0].url}](${nodes.3cx[0].url}:5001)
+#### [${nodes.3cx[0].shortdomain}](${nodes.3cx[0].url}:5001)
 
-> The [setup wizard](${nodes.3cx[0].url}:5015/?v=2) will need to be run, before the platform will be available.
+> The [Setup Wizard](${nodes.3cx[0].url}:5015/?v=2) ``must`` be run, before the platform will be available.
 
 ### Information
 
