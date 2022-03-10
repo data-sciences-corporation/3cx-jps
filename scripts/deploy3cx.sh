@@ -22,6 +22,7 @@ docker run \
   -p      5060:5060/udp \
   -p      5090:5090 \
   -p      5090:5090/udp \
+  -p      9000-9200:9000-9200 \
   -v    /root/3cx/mount:/mnt/3cx \
   -v    /root/3cx/config:/etc/3cxpbx \
   --env CX_PUBLIC_IP=$public_ip \
