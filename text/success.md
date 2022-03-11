@@ -1,8 +1,8 @@
 ### Access
 
-#### [${nodes.3cx[0].url}](${nodes.3cx[0].url}:5001)
+#### [3cx dashboard](${nodes.3cx[0].url}:5001)
 
-> The [Setup Wizard](${nodes.3cx[0].url}:5015/?v=2) ``must`` be run, before the platform will be available.
+> The [Setup Wizard](${nodes.3cx[0].url}:5015/?v=2) **MUST** be run, before the platform will be available.
 
 ### Information
 
